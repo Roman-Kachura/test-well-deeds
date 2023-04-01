@@ -1,0 +1,41 @@
+.searchPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  position: relative;
+
+  input {
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+  }
+
+  button {
+    width: 20%;
+    height: 100%;
+    background: #457bdc;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .searchLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 150px;
+    height: 40px;
+    background: #457bdc;
+    color: #fff;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}

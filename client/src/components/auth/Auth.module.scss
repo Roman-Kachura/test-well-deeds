@@ -1,0 +1,85 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  .authItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    height: auto;
+    width: 400px;
+    background: #2c2c2c;
+    border-radius: 5px;
+
+    .authTitle {
+      font-size: 21px;
+      line-height: 0;
+      text-transform: uppercase;
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+
+    .authForm {
+      width: 100%;
+      .authField {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+
+        label {
+          color: #ffcc00;
+        }
+
+        input {
+          outline: none;
+          width: 100%;
+          height: 40px;
+          border-radius: 5px;
+          background: rgba(0, 0, 0, 0);
+          margin-bottom: 5px;
+          border: 1px solid #ffcc00;
+          color: #ffcc00;
+          padding: 10px;
+
+          &.inputError{
+            border: 1px solid red;
+          }
+        }
+
+        .authError{
+          color: red;
+        }
+      }
+    }
+
+    .authBtn {
+      width: 100%;
+      height: 40px;
+      text-transform: uppercase;
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 5px;
+      margin-top: 20px;
+
+      &:hover {
+        background: #fff;
+        color: #2c2c2c;;
+      }
+    }
+
+    .authLink {
+      margin-top: 20px;
+      color: #fff;
+    }
+  }
+}
